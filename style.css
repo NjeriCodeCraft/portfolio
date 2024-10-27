@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F2EC; /* Light beige background */
+    color: #4A4A4A; /* Soft dark gray for text */
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #D9CBB8; /* Soft taupe */
+    color: #4A4A4A;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #FFFFFF; /* White for section cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #B39A80; /* Muted taupe */
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.skill {
+    background-color: #D4C4B1; /* Soft cream */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    transition: transform 0.2s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.project {
+    background-color: #E9E2DB; /* Light taupe */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 0.9em;
+    color: #4A4A4A;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #D3C6B6; /* Light taupe border */
+    border-radius: 5px;
+    background-color: #F6F2EC;
+    color: #4A4A4A;
+}
+
+button {
+    padding: 10px;
+    background-color: #B39A80; /* Muted taupe button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9D8A74; /* Slightly darker taupe on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #D9CBB8; /* Soft taupe */
+    color: #4A4A4A;
+}
+
